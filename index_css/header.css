@@ -265,11 +265,10 @@ a {
         margin-right: 10px;
     }
 
-    .search-bar {
-        max-width: 500px;
+    .search-bar, .search-button {
+        opacity: 0;
+        max-width: 150px;
     }
-    
-
 
 }
 
