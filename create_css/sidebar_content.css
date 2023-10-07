@@ -87,32 +87,26 @@
     .sidebar{
         display: none;
     }
-
-    .hamburger-menu-video-logo{
-        height: 40px;
-        display: inline-block;
-        vertical-align: middle;
-        
-    }
-
+    
     .yt-apps-container, .notif-container, .user-picture{
         opacity: 0;
         display: none;
     }
 
-    .left-section{
-        flex: 1;
-    }
-
-    .right-section{
-        max-width: 170px;
-    }
-
     .middle-section {
+        max-width: 50px;
         margin-right: 10px;
         flex: 0;
-        display: none;
-        opacity: 0;
     }
+
+    .search-button {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .search-bar, .voice-button{
+        display: none;
+    }
+
 
 }
