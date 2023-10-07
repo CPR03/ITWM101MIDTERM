@@ -1,0 +1,75 @@
+.thumbnail {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.video-preview {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    padding: 12px;
+    
+}
+
+.video-title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.video-author {
+    margin-bottom: 4px;
+}
+
+.video-author,
+.video-stats {
+    font-size: 12px;
+}
+
+.channel-picture {
+    width: 50px;
+    vertical-align: top;
+}
+
+.profile-picture {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.time {
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.709);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 4px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-preview {
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    padding: 12px;
+    transition: 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+.video-preview:hover{
+    scale: 1.05;
+}
+
+

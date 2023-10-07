@@ -1,0 +1,37 @@
+.sidebar{
+    position: fixed;
+    width: 90px;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    z-index: 2;
+    padding-top: 5px;
+    border-radius: 15px;
+    margin: 10px 0px 10px 10px;
+}
+
+.side-box{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 74px;
+}
+
+.side-box img{
+    width: 27px;
+    margin-bottom: 5px;
+}
+
+.side-box div{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.side-box:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    filter: invert(100%);
+}
