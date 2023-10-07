@@ -95,7 +95,6 @@
         
     }
 
-    
     .yt-apps-container, .notif-container, .user-picture{
         opacity: 0;
         display: none;
@@ -112,13 +111,8 @@
     .middle-section {
         margin-right: 10px;
         flex: 0;
-    }
-
-    .search-bar, .search-button {
         display: none;
         opacity: 0;
-        max-width: 90px;
     }
-
 
 }
