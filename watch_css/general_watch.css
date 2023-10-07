@@ -52,13 +52,15 @@ body{
 
     .hamburger-menu-video-logo{
         height: 40px;
-        position: absolute;
-        top: 8px;
-        display: block;
+        display: inline-block;
+        vertical-align: middle;
+        
     }
 
-    .yt-apps-container, .new-video, .notif-container, .user-picture{
+    
+    .yt-apps-container, .notif-container, .user-picture{
         opacity: 0;
+        display: none;
     }
 
     .left-section{
@@ -66,7 +68,7 @@ body{
     }
 
     .right-section{
-        max-width: 50px;
+        max-width: 170px;
     }
 
     .middle-section {
