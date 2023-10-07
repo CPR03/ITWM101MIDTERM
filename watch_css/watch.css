@@ -158,6 +158,12 @@
     margin-bottom: 15px;
 }
 
+.name{
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
 .comment_name{
     display: grid;
 }
@@ -187,7 +193,7 @@
     opacity: 1;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 424px) {
     .video-author-main{   
         grid-template-columns: 1fr;
     }

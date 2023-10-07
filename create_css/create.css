@@ -120,7 +120,7 @@ hr.rounded {
     column-gap: 20px;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 424px) {
     .analytics-news-container {
         grid-template-columns: 1fr;
     }
@@ -133,15 +133,6 @@ hr.rounded {
         grid-template-columns: 1fr 1fr;
     }
 
-    body {
-        margin: 0;
-        height: 1300px;
-        padding-top: 67px;
-        padding-left: 170px;
-        padding-right: 10px;
-        background-color: rgb(241, 241, 241);
-        font-family: Roboto, Arial;
-    }
 }
 
 @media (min-width: 768px) {

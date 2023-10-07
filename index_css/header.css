@@ -243,32 +243,5 @@ a {
 }
 
 
-@media (max-width: 768px) {
-    .hamburger-menu-video-logo{
-        
-        height: 40px;
-        position: absolute;
-        top: 8px;
-        display: block;
-    }
 
-    .yt-apps-container, .new-video, .notif-container, .user-picture{
-        opacity: 0;
-    }
-
-    .right-section{
-        max-width: 50px;
-        
-    }
-
-    .middle-section {
-        margin-right: 10px;
-    }
-
-    .search-bar, .search-button {
-        opacity: 0;
-        max-width: 150px;
-    }
-
-}
 

@@ -10,8 +10,73 @@ body{
     margin: 0;
     height: 1300px;
     padding-top: 100px;
-    padding-left: 50px;
+    padding-left: 24px;
     padding-right: 24px;
     background-color: rgb(241, 241, 241);
     font-family: Roboto, Arial;
+}
+
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        height: 1300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 70px;
+        background-color: rgb(241, 241, 241);
+        font-family: Roboto, Arial;
+    }
+
+    .comment-user{
+        width: 37px;
+    }
+
+    .video-title-main{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .comment{
+        font-size: 13px;
+    }
+
+    .name{
+        font-size: 15px;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .hamburger-menu-video-logo{
+        height: 40px;
+        position: absolute;
+        top: 8px;
+        display: block;
+    }
+
+    .yt-apps-container, .new-video, .notif-container, .user-picture{
+        opacity: 0;
+    }
+
+    .left-section{
+        flex: 1;
+    }
+
+    .right-section{
+        max-width: 50px;
+    }
+
+    .middle-section {
+        margin-right: 10px;
+        flex: 0;
+    }
+
+    .search-bar, .search-button {
+        display: none;
+        opacity: 0;
+        max-width: 90px;
+    }
+
+
 }
